@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:padding="5dp">
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:id="@+id/duaDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_weight="1" android:gravity="right" android:text="Dua date:" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="italic" android:visibility="gone"/>
+            <TextView android:id="@+id/tags" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:layout_weight="1" android:text="Tags:" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="italic" android:visibility="gone"/>
+                       <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginTop="10dip" android:layout_weight="1" android:focusable="false" android:focusableInTouchMode="false" android:hint="@string/hintTitle"/>
+                       <Gallery android:id="@+id/gallery" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_marginTop="15dp" android:layout_weight="0.33" android:spacing="5dp" android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="1" android:focusable="false" android:focusableInTouchMode="false" android:hint="@string/hintText" android:inputType="textMultiLine">
+
+                <requestFocus />
+            </EditText>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

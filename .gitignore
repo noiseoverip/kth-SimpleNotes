@@ -1,0 +1,39 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# API's
+API/
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+.settings
+.classpath
+
+#mac files
+
+*.lock
+
+*.DS_Store
+
+*.swp
+
+*.out
+
+#Android
+
+project.properties
+
+.project
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, NotesActivity!</string>
+    <string name="app_name">Notes</string>
+    <string name="hintTitle">Note title</string>
+    <string name="hintText">Type your note text here</string>
+    <string name="hintTag">Type tag here</string>
+    <string name="emtpyNoteText">To create new note click \"+\" in action bar</string>
+
+</resources>
