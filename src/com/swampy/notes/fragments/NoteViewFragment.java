@@ -412,7 +412,7 @@ public class NoteViewFragment extends NotesAbstractFragment {
 		menu.add(0, Static.ACTION_NOTE_EDIT, 0, "Edit").setIcon(R.drawable.edit)
 				.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
 		menu.add(0, Static.ACTION_NOTE_DELETE, 0, "Delete").setIcon(R.drawable.removediscard)
-				.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+				.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
 
 		super.onCreateOptionsMenu(menu, inflater);
 	}
